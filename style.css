@@ -1,0 +1,25 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100wh;
+    height: 100vh;
+}
+#canvas1{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(247,245,245,1) 100%, rgba(232,232,228,1) 100%);
+    /* background: #ffcbcb; */
+}
+#collissionDect{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0;
+    /* background: red; */
+}
